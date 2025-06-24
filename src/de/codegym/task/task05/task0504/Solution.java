@@ -7,7 +7,9 @@ Die drei „Muskatztiere“
 
 public class Solution {
     public static void main(String[] args) {
-        //schreib hier deinen Code
+        Katze katze1= new Katze("Java", 3, 5, 5);
+        Katze katze2 = new Katze("Phyton", 4,5,6);
+        Katze katze3 = new Katze("Json",4,3,5);
     }
 
     public static class Katze {
